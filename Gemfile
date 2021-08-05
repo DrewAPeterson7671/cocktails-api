@@ -23,6 +23,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
 gem 'faker'
+gem 'devise'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -43,9 +44,7 @@ group :development, :test do
   gem 'rspec-rails', '>= 3.9.0'
   gem 'cucumber-rails', :require => false
   gem 'factory_bot_rails', '~>6.0'
-  gem 'shoulda-matchers',  
-      git: 'https://github.com/thoughtbot/shoulda-matchers.git',  
-      branch: 'rails-5'
+  gem 'shoulda', '4.0.0.rc1'
 end
 
 group :development do
